@@ -1,0 +1,156 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+  /* this thing that is hidden shouldn't have
+    padding or margin */
+.detail__item {
+  opacity: 1;
+  max-height: 250px;
+  overflow: hidden;
+  transition: max-height 300ms, opacity 300ms 100ms;
+
+  background-color: black;
+  width: 23em;
+  padding-top: 0;
+  margin-top: -1em;
+}
+
+.detail__item--hidden {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 300ms 100ms, opacity 300ms;
+}
+
+.detail__item1 {
+  opacity: 1;
+  max-height: 250px;
+  overflow: hidden;
+  transition: max-height 300ms, opacity 300ms 100ms;
+
+  background-color: black;
+  width: 23em;
+  padding-top: 0;
+  margin-top: -1em;
+}
+
+.detail__item1--hidden {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 300ms 100ms, opacity 300ms;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  width: 23em;
+  height: 23em;
+}
+
+div.huis1{
+  width: 23em;
+  margin-left: 0.5em;
+}
+
+div.huis1{
+  width: 23em;
+  margin-left: 0.5em;
+}
+
+div.huis2{
+  width: 23em;
+}
+
+div.huis2 section ul li h2{
+  padding-top: -0.5em;
+}
+
+button#hider1{
+  width: 112%;
+padding-top: 0;
+}
+
+button{
+  width: 112%;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+  border:none;
+  font-weight: bold;
+  background-color: orange;
+  color:white;
+  font-size: 1.2em;
+  margin-top: -0.3em;
+}
+
+
+section ul{
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+}
+
+
+h1{
+  text-align: center;
+  padding: 0.2em;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-left: 11em;
+  margin-right: 11em;
+  border-radius:10px 10px 10px 10px;
+}
+nav > ul{
+  background-color: orange;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0;
+  padding-right: 1.2em;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav li {
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-left: 1em;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+nav li:hover{
+  background-color: black;
+  transition: 1s;
+}
+
+button:hover{
+  background-color: black;
+  transition: 1s;
+}
+
+
+section ul li{
+  font-size: 0.8em;
+  margin-left: 0.7em;
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+h2{
+  font-size: 1em;
+}
+
+/* div < section{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+} */
