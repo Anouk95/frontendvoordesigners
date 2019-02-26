@@ -11,6 +11,6 @@ Het vak bestaat uit 3 opdrachten:
 3. [Opdracht 3](opdracht3/)
 
 
----
+--- HALLO
 - [Markup cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Getting started with GitHub Pages](https://guides.github.com/features/pages/)
