@@ -8,6 +8,15 @@ De JSON data is ook los, per film of genre of actors te gebruiken. Check die [hi
 
 https://anouk95.github.io/frontendvoordesigners/opdracht3
 
+
+Hallo,
+
+Mijn naam is Anouk Meijer. Ik heb de website Attracties in Amsterdam gemaakt voor mensen die graag een dagje uit in Amsterdam zoude willen. De website laat diverse atrracties zien, met een beschrijving waar de attracties over gaan en waar zij zich bevinden in Amsterdam. 
+
+Deze website is gemaakt doormiddel van gratis vrijgegeven data van Amsterdam die wordt opgehaald doormiddel van een JSON file. De data zal zich daarbij dus blijven updaten. De kleuren die ik heb gekozen staan voor Amsterdam zodat de website gelijk herkenbaar wordt voor de gebruikers. De website is gebruiksvriendelijk en kan door iedereen worden gebruikt. 
+
+Techniek.
+
 Bij het ophalen van de data heb ik ervoor gezorgt een section te zetten in mijn html. Daarna heb ik de data opgehaald doormiddel van de functie showData. Hierna moest ik de data uitpakken vanuit de objects. Dat heb ik gedaan door het crearen van elementen. Daarna heb ik met textContent en een variable de items zoals beschrijvingen opgehaald. Je kunt in de console de objects openen waarin je de benamingen kan zien waar vanuit je ze kan aanroepen. Zo kan je de elementen creeren en ze een waarde meegeven om ze in css te kunnen bewerken. Je kunt ze een p meegeven of een h1 etc.
 
 
